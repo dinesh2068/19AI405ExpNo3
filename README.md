@@ -105,8 +105,10 @@ G F <BR>
 
 <hr>
 <h3>Program:</h3>
-<p>
-  #Exp-3 Bradth First Search Traversal
+
+```
+
+#Exp-3 Bradth First Search Traversal
 #it uses Queue and Iteration
 from collections import defaultdict
 from collections import deque
@@ -136,7 +138,9 @@ path=[]
 visisted=defaultdict(bool)
 traversedpath=bfs(graph,start,visited,path)
 print(traversedpath)
-</p>
+
+```
+
 <h3>Result:</h3>
 <hr>
 <p>Thus,a Graph was constructed and implementation of Breadth First Search for the same graph was done successfully.</p>
